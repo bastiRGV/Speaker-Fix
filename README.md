@@ -9,7 +9,7 @@
 -add  
 ***[Element Master]  
   switch = mute  
-  volume = ignore***
+  volume = ignore***  
  to /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
  (in front of the [Element PCM] block)
  
