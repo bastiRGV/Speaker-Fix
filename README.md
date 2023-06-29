@@ -7,9 +7,9 @@
 -audio should work after a restart, but you cant control the volume
 
 -add  
-***[Element Master]
-  switch = mute  
-  volume = ignore***  
+***[Element Master]\n
+  switch = mute\n
+  volume = ignore***\n
   (in front of the [Element PCM] block)
 
   and
