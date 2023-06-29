@@ -7,17 +7,17 @@
 -audio should work after a restart, but you cant control the volume
 
 -add  
-***[Element Master]\n
-  switch = mute\n
-  volume = ignore***\n
-  (in front of the [Element PCM] block)
+***[Element Master]
+switch = mute
+volume = ignore***
+(in front of the [Element PCM] block)
 
   and
 
  ***[Element LFE]
-  switch = mute  
-  volume = ignore***
-  (after the [Element PCM] block)
+ switch = mute
+ volume = ignore***
+ (after the [Element PCM] block)
    
  to /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
  
