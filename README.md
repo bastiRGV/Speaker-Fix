@@ -10,7 +10,18 @@
 ***[Element Master]  
   switch = mute  
   volume = ignore***  
+
+  (in front of the [Element PCM] block)
+
+  and
+
+ ***[Element LFE]
+   switch = mute
+   volume = ignore***
+
+(after the [Element PCM] block)
+   
  to /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
- (in front of the [Element PCM] block)
+ 
  
  -restart pulseaudio
