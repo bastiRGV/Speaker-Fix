@@ -1,5 +1,7 @@
 -use pulseaudio
 
+-mask ***pipewire.service*** and ***pipewire.socket***
+
 -add ***options snd-hda-intel model=asus-zenbook***<br>
  to /etc/modprobe.d/alsa-base.conf
  (create the file, if it doesn't exist)
